@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Github\\Facultad\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\",
+  "WorkspaceRootPath": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|F:\\Github\\Facultad\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|F:\\Github\\Facultad\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\actividad 2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,45 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "F:\\Github\\Facultad\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs",
-              "RelativeDocumentMoniker": "Actividad 2\\Form1.cs",
-              "ToolTip": "F:\\Github\\Facultad\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs",
-              "RelativeToolTip": "Actividad 2\\Form1.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAjwD8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T20:37:53.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "F:\\Github\\Facultad\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Actividad 2\\Form1.Designer.cs",
-              "ToolTip": "F:\\Github\\Facultad\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.Designer.cs",
-              "RelativeToolTip": "Actividad 2\\Form1.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "Eliminar.cs",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\Eliminar.cs",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs",
+              "RelativeToolTip": "Actividad 2\\Eliminar.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T19:32:46.368Z",
+              "WhenOpened": "2025-09-09T21:08:19.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Eliminar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\Eliminar.cs",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Actividad 2\\Eliminar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T21:07:55.315Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Github\\Facultad\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs",
               "RelativeDocumentMoniker": "Actividad 2\\Form1.cs",
-              "ToolTip": "F:\\Github\\Facultad\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Actividad 2\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T19:30:38.816Z",
+              "WhenOpened": "2025-09-09T21:05:01.944Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.resx",
+              "RelativeDocumentMoniker": "Actividad 2\\Form1.resx",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.resx",
+              "RelativeToolTip": "Actividad 2\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-09T21:05:00.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\Form1.Designer.cs",
+              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.Designer.cs",
+              "RelativeToolTip": "Actividad 2\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T21:04:58.663Z",
+              "EditorCaption": ""
             }
           ]
         }
