@@ -21,5 +21,45 @@ namespace Actividad_2
         {
 
         }
+
+        private void lbl_campo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbo_campo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbo_criterio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_criterio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbo_filtro_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_filtro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
