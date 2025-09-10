@@ -1,26 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\",
+  "WorkspaceRootPath": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\dominio\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\dominio\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\dominio\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\dominio\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\detallearticuloform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\detallearticuloform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\dominio\\imagenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\dominio\\imagenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\dominio\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\dominio\\conexionsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\actividad 2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\dominio\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\dominio\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\editarticuloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\editarticuloform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\detallearticuloform2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\detallearticuloform2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\detallearticuloform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\detallearticuloform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\actividad 2\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|f:\\github\\facultad\\progra 3- segundo intento\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\eliminar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\eliminar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\eliminar.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\eliminar.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|c:\\users\\aledesma\\source\\repos\\progra3-tpwinform_equipo-19b\\actividad 2\\actividad 2\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC16A37E-0605-46B4-9A73-CE558753D9E3}|Actividad 2\\Actividad 2.csproj|solutionrelative:actividad 2\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,40 +98,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Eliminar.cs",
-              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs",
-              "RelativeDocumentMoniker": "Actividad 2\\Eliminar.cs",
-              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs",
-              "RelativeToolTip": "Actividad 2\\Eliminar.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T21:08:19.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Eliminar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs",
-              "RelativeDocumentMoniker": "Actividad 2\\Eliminar.cs",
-              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Actividad 2\\Eliminar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T21:07:55.315Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\dominio\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\CategoriaRepository.cs",
+              "RelativeToolTip": "Actividad 2\\dominio\\CategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T22:35:42.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MarcaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\MarcaRepository.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\dominio\\MarcaRepository.cs",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\MarcaRepository.cs",
+              "RelativeToolTip": "Actividad 2\\dominio\\MarcaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T22:34:33.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetalleArticuloForm2.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\DetalleArticuloForm2.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\DetalleArticuloForm2.cs",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\DetalleArticuloForm2.cs",
+              "RelativeToolTip": "Actividad 2\\DetalleArticuloForm2.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T22:05:53.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImagenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\ImagenRepository.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\dominio\\ImagenRepository.cs",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\ImagenRepository.cs",
+              "RelativeToolTip": "Actividad 2\\dominio\\ImagenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T22:00:05.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Imagen.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\Imagen.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\dominio\\Imagen.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\Imagen.cs",
+              "RelativeToolTip": "Actividad 2\\dominio\\Imagen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:43:26.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConexionSql.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\ConexionSql.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\dominio\\ConexionSql.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\ConexionSql.cs",
+              "RelativeToolTip": "Actividad 2\\dominio\\ConexionSql.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:43:21.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs",
               "RelativeDocumentMoniker": "Actividad 2\\Form1.cs",
-              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Actividad 2\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T21:05:01.944Z",
@@ -71,27 +196,193 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.resx",
-              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.resx",
-              "RelativeDocumentMoniker": "Actividad 2\\Form1.resx",
-              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.resx",
-              "RelativeToolTip": "Actividad 2\\Form1.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-09T21:05:00.828Z",
+              "DocumentIndex": 8,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.Designer.cs",
+              "RelativeToolTip": "Actividad 2\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIBAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T21:04:58.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Actividad 2\\Form1.Designer.cs",
-              "ToolTip": "F:\\Github\\Facultad\\Progra 3- Segundo Intento\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.Designer.cs",
-              "RelativeToolTip": "Actividad 2\\Form1.Designer.cs",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\Form1.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.cs",
+              "RelativeToolTip": "Actividad 2\\Form1.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:39:39.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\dominio\\ArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\ArticuloRepository.cs",
+              "RelativeToolTip": "Actividad 2\\dominio\\ArticuloRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:42:53.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditArticuloForm.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\EditArticuloForm.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\EditArticuloForm.cs",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\EditArticuloForm.cs",
+              "RelativeToolTip": "Actividad 2\\EditArticuloForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T22:36:48.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetalleArticuloForm2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\DetalleArticuloForm2.Designer.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\DetalleArticuloForm2.Designer.cs",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\DetalleArticuloForm2.Designer.cs",
+              "RelativeToolTip": "Actividad 2\\DetalleArticuloForm2.Designer.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAQwK8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T22:06:35.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DetalleArticuloForm2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\DetalleArticuloForm2.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\DetalleArticuloForm2.cs",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\DetalleArticuloForm2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Actividad 2\\DetalleArticuloForm2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T22:05:41.522Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\Categoria.cs",
+              "RelativeToolTip": "Actividad 2\\dominio\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:43:12.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\Marca.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\dominio\\Marca.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\Marca.cs",
+              "RelativeToolTip": "Actividad 2\\dominio\\Marca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:43:36.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Program.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\Program.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Program.cs",
+              "RelativeToolTip": "Actividad 2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:44:05.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Actividad 2\\Properties\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T21:04:58.663Z",
+              "WhenOpened": "2025-09-10T21:44:26.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\dominio\\Articulo.cs",
+              "RelativeToolTip": "Actividad 2\\dominio\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:42:44.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Eliminar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\Eliminar.cs",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Actividad 2\\Eliminar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:43:58.275Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Eliminar.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.Designer.cs",
+              "RelativeDocumentMoniker": "Actividad 2\\Eliminar.Designer.cs",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.Designer.cs",
+              "RelativeToolTip": "Actividad 2\\Eliminar.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:43:59.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Eliminar.resx",
+              "DocumentMoniker": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.resx",
+              "RelativeDocumentMoniker": "Actividad 2\\Eliminar.resx",
+              "ToolTip": "C:\\Users\\aledesma\\Source\\Repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Eliminar.resx",
+              "RelativeToolTip": "Actividad 2\\Eliminar.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-10T21:44:00.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.resx",
+              "RelativeDocumentMoniker": "Actividad 2\\Form1.resx",
+              "ToolTip": "C:\\Users\\aledesma\\source\\repos\\Progra3-TPWinForm_equipo-19b\\Actividad 2\\Actividad 2\\Form1.resx",
+              "RelativeToolTip": "Actividad 2\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-09T21:05:00.828Z",
               "EditorCaption": ""
             }
           ]

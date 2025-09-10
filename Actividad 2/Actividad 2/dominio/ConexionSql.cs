@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
-namespace dominio
+namespace Actividad_2.Dominio
 {
     public class ConexionSql
     {
@@ -11,16 +11,15 @@ namespace dominio
         private readonly SqlCommand comando = new SqlCommand();
         private SqlDataReader lector;
 
-        private bool cartelMostrado = false; // muestra una sola vez por instancia
+        private bool cartelMostrado = false; 
 
         public SqlDataReader Lector => lector;
 
         public ConexionSql()
         {
-            //conexion = new SqlConnection(@"Server=.\\SQLEXPRESS22;Database=DISCOS_DB;Integrated Security=True"); // NICO
-            conexion.ConnectionString = @"Server=.\\SQLEXPRESS;Database=DISCOS_DB;Integrated Security=True"; // RESTO
+            //conexion = new SqlConnection(@"Server=.\\SQLEXPRESS22;Database=CATALOGO_P3_DB;Integrated Security=True"); // NICO
+            conexion.ConnectionString = @"Server=.\\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True"; // RESTO
 
-            // cartel cuando se abre la conexión, venga de donde venga
             conexion.StateChange += (s, e) =>
             {
                 if (!cartelMostrado && e.CurrentState == ConnectionState.Open)
@@ -43,11 +42,11 @@ namespace dominio
             try
             {
                 if (conexion.State != ConnectionState.Open)
-                    conexion.Open(); // dispara StateChange → cartel
+                    conexion.Open(); 
 
                 lector = comando.ExecuteReader();
             }
-            catch (Exception ex) { throw; }
+            catch (Exception) { throw; }
         }
 
         public void EjecutarAccion()
@@ -56,11 +55,11 @@ namespace dominio
             try
             {
                 if (conexion.State != ConnectionState.Open)
-                    conexion.Open(); // dispara StateChange → cartel
+                    conexion.Open();
 
-                comando.ExecuteNonQuery(); // acción sin lector
+                comando.ExecuteNonQuery(); 
             }
-            catch (Exception ex) { throw; }
+            catch (Exception) { throw; }
         }
 
         public void cerrarConexion()
