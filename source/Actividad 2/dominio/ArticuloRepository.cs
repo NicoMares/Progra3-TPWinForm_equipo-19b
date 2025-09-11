@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace Actividad_2.Dominio
 {
@@ -8,6 +9,9 @@ namespace Actividad_2.Dominio
     {
         private readonly string connectionString =
             @"Server=.\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True";
+
+        private SqlConnection conexion;
+        private SqlCommand comando;
 
         public List<Articulo> Listar()
         {
@@ -109,6 +113,35 @@ namespace Actividad_2.Dominio
                         throw;
                     }
                 }
+            }
+        }
+
+        public void Agregar(Articulo nuevo)
+        {
+            conexion = new SqlConnection(connectionString);
+            comando = new SqlCommand();
+            comando.CommandType = System.Data.CommandType.Text;
+            comando.CommandText = ("insert into ARTICULOS(Codigo,Nombre,Descripcion,IdMarca,IdCategoria,Precio)values(@Codigo,@Nombre,@Descripcion,@IdMarca,@IdCategoria,@Precio)");
+            comando.Parameters.AddWithValue("@Codigo", nuevo.Codigo);
+            comando.Parameters.AddWithValue("@Nombre", nuevo.Nombre);
+            comando.Parameters.AddWithValue("@Descripcion", nuevo.Descripcion);
+            comando.Parameters.AddWithValue("@IdMarca", nuevo.Marca.Id);
+            comando.Parameters.AddWithValue("@IdCategoria", nuevo.Categoria.Id);
+            comando.Parameters.AddWithValue("@Precio", nuevo.Precio);
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                conexion.Close();
             }
         }
     }

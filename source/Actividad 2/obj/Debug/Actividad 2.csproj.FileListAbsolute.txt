@@ -85,3 +85,4 @@ E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\s
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.exe.config
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.exe
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmAgregarArticulo.resources

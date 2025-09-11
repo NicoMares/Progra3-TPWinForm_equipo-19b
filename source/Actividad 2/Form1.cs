@@ -181,5 +181,11 @@ namespace Actividad_2
             frmAgregarMarca agregarMarca = new frmAgregarMarca();
             agregarMarca.ShowDialog();
         }
+
+        private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAgregarArticulo agregarArticulo = new frmAgregarArticulo();
+            agregarArticulo.ShowDialog();
+        }
     }
 }
