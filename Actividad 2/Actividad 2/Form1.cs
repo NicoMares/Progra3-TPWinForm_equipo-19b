@@ -165,8 +165,15 @@ namespace Actividad_2
             btn.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
 
-
+        private void agregarCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAgregarCategoria agregarCategoria = new frmAgregarCategoria();
+            agregarCategoria.ShowDialog();
+        }
     }
 }
