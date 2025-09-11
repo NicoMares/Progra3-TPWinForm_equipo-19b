@@ -20,4 +20,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
-.vs/
+.vs
+source/.vs/
+source/dominio/.vs/
+source/Actividad 2/.vs/
