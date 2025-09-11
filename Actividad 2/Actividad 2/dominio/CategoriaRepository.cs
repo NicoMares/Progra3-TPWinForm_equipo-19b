@@ -11,8 +11,7 @@ namespace Actividad_2.Dominio
         
         private SqlConnection conexion;
         private SqlCommand comando;
-        private SqlDataReader lector;
-
+        
         public List<Categoria> Listar()
         {
             var list = new List<Categoria>();

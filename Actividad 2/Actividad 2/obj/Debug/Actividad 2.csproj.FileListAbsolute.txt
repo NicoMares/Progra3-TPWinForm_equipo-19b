@@ -56,3 +56,4 @@ E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\A
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\Actividad 2\Actividad 2\obj\Debug\Actividad 2.exe
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\Actividad 2\Actividad 2\obj\Debug\Actividad 2.pdb
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\Actividad 2\Actividad 2\obj\Debug\Actividad_2.Dominio.frmAgregarCategoria.resources
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\Actividad 2\Actividad 2\obj\Debug\Actividad_2.frmAgregarMarca.resources

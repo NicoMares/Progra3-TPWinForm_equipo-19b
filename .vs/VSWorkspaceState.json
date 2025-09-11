@@ -3,8 +3,9 @@
     "",
     "\\Actividad 2",
     "\\Actividad 2\\Actividad 2",
+    "\\Actividad 2\\Actividad 2\\dominio",
     "\\Actividad 2\\dominio"
   ],
-  "SelectedNode": "\\Actividad 2\\Actividad 2\\EditArticuloForm.cs",
+  "SelectedNode": "\\Actividad 2\\Actividad 2\\dominio\\CategoriaRepository.cs",
   "PreviewInSolutionExplorer": false
 }
