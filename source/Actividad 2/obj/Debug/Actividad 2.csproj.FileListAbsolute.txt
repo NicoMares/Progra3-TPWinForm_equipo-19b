@@ -71,3 +71,17 @@ C:\Users\aledesma\source\repos\Progra3-TPWinForm_equipo-19b - copia\source\Activ
 C:\Users\aledesma\source\repos\Progra3-TPWinForm_equipo-19b - copia\source\Actividad 2\obj\Debug\Actividad 2.csproj.CoreCompileInputs.cache
 C:\Users\aledesma\source\repos\Progra3-TPWinForm_equipo-19b - copia\source\Actividad 2\obj\Debug\Actividad 2.exe
 C:\Users\aledesma\source\repos\Progra3-TPWinForm_equipo-19b - copia\source\Actividad 2\obj\Debug\Actividad 2.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.csproj.AssemblyReference.cache
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.exe.config
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Eliminar.resources
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Form1.resources
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Dominio.frmAgregarCategoria.resources
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmAgregarMarca.resources
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Properties.Resources.resources
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.csproj.GenerateResource.cache
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.csproj.CoreCompileInputs.cache
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.exe
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.pdb
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.exe.config
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.exe
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.pdb

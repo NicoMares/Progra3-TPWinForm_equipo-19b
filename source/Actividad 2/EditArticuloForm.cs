@@ -89,10 +89,10 @@ namespace Actividad_2
             txtPrecio.Text = _articulo.Precio.ToString("0.##");
 
             // Selección inicial
-            if (marcas.Any(m => m.Id == _articulo.IdMarca))
-                cboMarca.SelectedValue = _articulo.IdMarca;
-            if (categorias.Any(c => c.Id == _articulo.IdCategoria))
-                cboCategoria.SelectedValue = _articulo.IdCategoria;
+            if (marcas.Any(m => m.Id == _articulo.Marca.Id))
+                cboMarca.SelectedValue = _articulo.Marca.Id;
+            if (categorias.Any(c => c.Id == _articulo.Categoria.Id))
+                cboCategoria.SelectedValue = _articulo.Categoria.Id;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -124,8 +124,8 @@ namespace Actividad_2
             _articulo.Nombre = txtNombre.Text.Trim();
             _articulo.Descripcion = txtDescripcion.Text.Trim();
             _articulo.Precio = precio;
-            _articulo.IdMarca = (int)cboMarca.SelectedValue;
-            _articulo.IdCategoria = (int)cboCategoria.SelectedValue;
+            _articulo.Marca.Id = (int)cboMarca.SelectedValue;
+            _articulo.Categoria.Id = (int)cboCategoria.SelectedValue;
 
             try
             {

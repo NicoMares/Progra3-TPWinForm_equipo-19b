@@ -15,7 +15,7 @@ namespace Actividad_2.Dominio
 
             using (var conexion = new SqlConnection(connectionString))
             using (var cmd = new SqlCommand(
-                "SELECT Id, Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio FROM Articulos", conexion))
+                "SELECT a.Id, a.Codigo, a.Nombre, a.Descripcion,a.IdMarca, m.Descripcion AS MarcaDescripcion,a.IdCategoria, c.Descripcion AS CategoriaDescripcion,a.Precio FROM Articulos a JOIN Marcas m ON m.Id = a.IdMarca JOIN Categorias c ON c.Id = a.IdCategoria", conexion))
             {
                 conexion.Open();
                 using (var lector = cmd.ExecuteReader())
@@ -28,9 +28,18 @@ namespace Actividad_2.Dominio
                             Codigo = lector.GetString(1),
                             Nombre = lector.GetString(2),
                             Descripcion = lector.GetString(3),
-                            IdMarca = lector.GetInt32(4),
-                            IdCategoria = lector.GetInt32(5),
-                            Precio = (float)lector.GetDecimal(6)
+                            Marca = new Marca
+                            {
+                                Id = lector.GetInt32(4),
+                                Descripcion = lector.GetString(5)
+                            },
+
+                            Categoria = new Categoria
+                            {
+                                Id = lector.GetInt32(6),
+                                Descripcion = lector.GetString(7)
+                            },
+                            Precio = (float)lector.GetDecimal(8)
                         };
                         lista.Add(art);
                     }
@@ -55,8 +64,8 @@ namespace Actividad_2.Dominio
                 cmd.Parameters.AddWithValue("@Codigo", a.Codigo ?? (object)DBNull.Value);
                 cmd.Parameters.AddWithValue("@Nombre", a.Nombre ?? (object)DBNull.Value);
                 cmd.Parameters.AddWithValue("@Descripcion", a.Descripcion ?? (object)DBNull.Value);
-                cmd.Parameters.AddWithValue("@IdMarca", a.IdMarca);
-                cmd.Parameters.AddWithValue("@IdCategoria", a.IdCategoria);
+                cmd.Parameters.AddWithValue("@IdMarca", a.Marca.Id);
+                cmd.Parameters.AddWithValue("@IdCategoria", a.Categoria.Id);
                 cmd.Parameters.AddWithValue("@Precio", a.Precio); // float en C#
                 cmd.Parameters.AddWithValue("@Id", a.Id);
 

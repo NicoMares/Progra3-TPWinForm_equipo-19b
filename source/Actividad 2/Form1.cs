@@ -30,8 +30,8 @@ namespace Actividad_2
             dataGridView1.DataSource = articulos;
 
             dataGridView1.Columns["Id"].Visible = false;
-            dataGridView1.Columns["IdMarca"].Visible = false;
-            dataGridView1.Columns["IdCategoria"].Visible = false;
+            dataGridView1.Columns["Marca"].Visible = false;
+            dataGridView1.Columns["Categoria"].Visible = false;
 
             if (dataGridView1.Columns["colEditar"] == null)
             {

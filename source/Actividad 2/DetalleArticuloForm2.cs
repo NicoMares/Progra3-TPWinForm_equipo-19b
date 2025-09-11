@@ -29,8 +29,8 @@ namespace Actividad_2
             lblNombre.Text = "Nombre: " + _articulo.Nombre;
             lblDescripcion.Text = "Descripción: " + _articulo.Descripcion;
             lblPrecio.Text = "Precio: " + _articulo.Precio.ToString("0.##");
-            lblMarca.Text = "Id Marca: " + _articulo.IdMarca;
-            lblCategoria.Text = "Id Categoría: " + _articulo.IdCategoria;
+            lblMarca.Text = "Id Marca: " + _articulo.Marca.Id;
+            lblCategoria.Text = "Id Categoría: " + _articulo.Categoria.Id;
 
              
             _imagenes = _imgRepo.ListarPorArticulo(_articulo.Id);
