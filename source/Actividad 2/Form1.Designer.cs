@@ -16,9 +16,9 @@ namespace Actividad_2
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lista_articulo = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,9 +38,7 @@ namespace Actividad_2
             this.lbl_criterio = new System.Windows.Forms.Label();
             this.cbo_criterio = new System.Windows.Forms.ComboBox();
             this.lbl_filtro = new System.Windows.Forms.Label();
-            this.cbo_filtro = new System.Windows.Forms.ComboBox();
             this.lbl_filtrorapido = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_volver = new System.Windows.Forms.Button();
@@ -48,6 +46,8 @@ namespace Actividad_2
             this.tableLeft = new System.Windows.Forms.TableLayoutPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.txtbox_Filtro = new System.Windows.Forms.TextBox();
+            this.txtbox_busquedarapida = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.panelFilters.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitMain)).BeginInit();
@@ -83,20 +83,20 @@ namespace Actividad_2
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.agregarToolStripMenuItem.Text = "Agregar";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
             // eliminarToolStripMenuItem
             // 
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
             // 
             // modificarToolStripMenuItem
             // 
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.modificarToolStripMenuItem.Text = "Modificar";
             // 
             // lista_marca
@@ -165,12 +165,12 @@ namespace Actividad_2
             this.panelFilters.Controls.Add(this.lbl_criterio);
             this.panelFilters.Controls.Add(this.cbo_criterio);
             this.panelFilters.Controls.Add(this.lbl_filtro);
-            this.panelFilters.Controls.Add(this.cbo_filtro);
-            this.panelFilters.Controls.Add(this.lbl_filtrorapido);
-            this.panelFilters.Controls.Add(this.textBox1);
+            this.panelFilters.Controls.Add(this.txtbox_Filtro);
             this.panelFilters.Controls.Add(this.btn_buscar);
             this.panelFilters.Controls.Add(this.btn_actualizar);
             this.panelFilters.Controls.Add(this.btn_volver);
+            this.panelFilters.Controls.Add(this.lbl_filtrorapido);
+            this.panelFilters.Controls.Add(this.txtbox_busquedarapida);
             this.panelFilters.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelFilters.Location = new System.Drawing.Point(0, 24);
             this.panelFilters.Name = "panelFilters";
@@ -194,6 +194,7 @@ namespace Actividad_2
             this.cbo_campo.Name = "cbo_campo";
             this.cbo_campo.Size = new System.Drawing.Size(140, 23);
             this.cbo_campo.TabIndex = 1;
+            this.cbo_campo.SelectedIndexChanged += new System.EventHandler(this.cbo_campo_SelectedIndexChanged);
             // 
             // lbl_criterio
             // 
@@ -211,6 +212,7 @@ namespace Actividad_2
             this.cbo_criterio.Name = "cbo_criterio";
             this.cbo_criterio.Size = new System.Drawing.Size(160, 23);
             this.cbo_criterio.TabIndex = 3;
+            this.cbo_criterio.SelectedIndexChanged += new System.EventHandler(this.cbo_criterio_SelectedIndexChanged);
             // 
             // lbl_filtro
             // 
@@ -221,43 +223,29 @@ namespace Actividad_2
             this.lbl_filtro.TabIndex = 4;
             this.lbl_filtro.Text = "Filtro:";
             // 
-            // cbo_filtro
-            // 
-            this.cbo_filtro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_filtro.Location = new System.Drawing.Point(478, 11);
-            this.cbo_filtro.Name = "cbo_filtro";
-            this.cbo_filtro.Size = new System.Drawing.Size(160, 23);
-            this.cbo_filtro.TabIndex = 5;
-            // 
             // lbl_filtrorapido
             // 
             this.lbl_filtrorapido.AutoSize = true;
-            this.lbl_filtrorapido.Location = new System.Drawing.Point(644, 8);
+            this.lbl_filtrorapido.Location = new System.Drawing.Point(857, 8);
             this.lbl_filtrorapido.Name = "lbl_filtrorapido";
             this.lbl_filtrorapido.Size = new System.Drawing.Size(98, 15);
             this.lbl_filtrorapido.TabIndex = 6;
             this.lbl_filtrorapido.Text = "Búsqueda rápida:";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(748, 11);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 23);
-            this.textBox1.TabIndex = 7;
-            // 
             // btn_buscar
             // 
             this.btn_buscar.AutoSize = true;
-            this.btn_buscar.Location = new System.Drawing.Point(974, 11);
+            this.btn_buscar.Location = new System.Drawing.Point(614, 11);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(75, 25);
             this.btn_buscar.TabIndex = 8;
             this.btn_buscar.Text = "Buscar";
+            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
             // 
             // btn_actualizar
             // 
             this.btn_actualizar.AutoSize = true;
-            this.btn_actualizar.Location = new System.Drawing.Point(13, 42);
+            this.btn_actualizar.Location = new System.Drawing.Point(695, 11);
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.Size = new System.Drawing.Size(75, 25);
             this.btn_actualizar.TabIndex = 9;
@@ -266,7 +254,7 @@ namespace Actividad_2
             // btn_volver
             // 
             this.btn_volver.AutoSize = true;
-            this.btn_volver.Location = new System.Drawing.Point(94, 42);
+            this.btn_volver.Location = new System.Drawing.Point(776, 11);
             this.btn_volver.Name = "btn_volver";
             this.btn_volver.Size = new System.Drawing.Size(75, 25);
             this.btn_volver.TabIndex = 10;
@@ -304,19 +292,19 @@ namespace Actividad_2
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(251)))));
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(251)))));
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.Location = new System.Drawing.Point(13, 13);
@@ -330,14 +318,14 @@ namespace Actividad_2
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.EnableHeadersVisualStyles = false;
             this.dataGridView2.Location = new System.Drawing.Point(13, 414);
@@ -345,6 +333,22 @@ namespace Actividad_2
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.Size = new System.Drawing.Size(1074, 128);
             this.dataGridView2.TabIndex = 1;
+            // 
+            // txtbox_Filtro
+            // 
+            this.txtbox_Filtro.Location = new System.Drawing.Point(478, 11);
+            this.txtbox_Filtro.Name = "txtbox_Filtro";
+            this.txtbox_Filtro.Size = new System.Drawing.Size(130, 23);
+            this.txtbox_Filtro.TabIndex = 11;
+            this.txtbox_Filtro.TextChanged += new System.EventHandler(this.txtbox_Filtro_TextChanged);
+            // 
+            // txtbox_busquedarapida
+            // 
+            this.txtbox_busquedarapida.Location = new System.Drawing.Point(961, 11);
+            this.txtbox_busquedarapida.Name = "txtbox_busquedarapida";
+            this.txtbox_busquedarapida.Size = new System.Drawing.Size(116, 23);
+            this.txtbox_busquedarapida.TabIndex = 12;
+            this.txtbox_busquedarapida.TextChanged += new System.EventHandler(this.txtbox_busquedarapida_TextChanged);
             // 
             // Form1
             // 
@@ -398,9 +402,7 @@ namespace Actividad_2
         private System.Windows.Forms.Label lbl_filtro;
         private System.Windows.Forms.ComboBox cbo_campo;
         private System.Windows.Forms.ComboBox cbo_criterio;
-        private System.Windows.Forms.ComboBox cbo_filtro;
         private System.Windows.Forms.Label lbl_filtrorapido;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_volver;
@@ -408,5 +410,7 @@ namespace Actividad_2
         private System.Windows.Forms.TableLayoutPanel tableLeft;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
+        private TextBox txtbox_Filtro;
+        private TextBox txtbox_busquedarapida;
     }
 }

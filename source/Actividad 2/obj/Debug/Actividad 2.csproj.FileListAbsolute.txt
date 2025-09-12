@@ -86,3 +86,18 @@ E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\s
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.exe
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.pdb
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmAgregarArticulo.resources
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.exe.config
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.exe
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.pdb
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.csproj.AssemblyReference.cache
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.exe.config
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Eliminar.resources
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Form1.resources
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmAgregarArticulo.resources
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Dominio.frmAgregarCategoria.resources
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmAgregarMarca.resources
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Properties.Resources.resources
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.csproj.GenerateResource.cache
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.csproj.CoreCompileInputs.cache
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.exe
+F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.pdb

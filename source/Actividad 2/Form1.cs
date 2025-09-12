@@ -22,6 +22,14 @@ namespace Actividad_2
             dataGridView1.CellClick += dataGridView1_CellClick;
             AplicarEstilosModernos();
 
+
+             cbo_campo.Items.Add("Codigo");
+             cbo_campo.Items.Add("Nombre");
+             cbo_campo.Items.Add("Precio");
+
+           /*  cbo_campo.Items.Add("Descripcion");
+            cbo_campo.Items.Add("Marca");
+           */
         }
 
         private void CargarArticulos()
@@ -186,6 +194,122 @@ namespace Actividad_2
         {
             frmAgregarArticulo agregarArticulo = new frmAgregarArticulo();
             agregarArticulo.ShowDialog();
+        }
+
+        private void cbo_campo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+           string opcion =  cbo_campo.SelectedItem.ToString();
+
+
+            switch (opcion)
+            {
+                case "Codigo":
+
+                    cbo_criterio.Items.Clear();
+                    cbo_criterio.Items.Add("Contiene");
+
+                    break;
+
+                case "Precio":
+
+                    cbo_criterio.Items.Clear();
+                    cbo_criterio.Items.Add("Mayor a");
+                    cbo_criterio.Items.Add("Menor a");
+                    cbo_criterio.Items.Add("Igual a");
+
+                    break;
+
+             
+                case "Nombre":
+
+                    cbo_criterio.Items.Clear();
+                    cbo_criterio.Items.Add("Comienza con");
+                    cbo_criterio.Items.Add("Contiene");
+                    cbo_criterio.Items.Add("Termina con");
+
+                    break;
+
+                case "Descripcion":
+                    cbo_criterio.Items.Clear();
+                    cbo_criterio.Items.Add("Texto De Descripcion");
+
+                    break;
+                case "Marca":
+
+                    cbo_criterio.Items.Clear();
+                    cbo_criterio.Items.Add("Comienza con");
+                    cbo_criterio.Items.Add("Contiene");
+                    cbo_criterio.Items.Add("Termina con");
+
+                    break;
+
+                default:
+                    break;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+            
+           
+
+
+        }
+
+        private void cbo_criterio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn_buscar_Click(object sender, EventArgs e)
+        {
+            Articulo articulos = new Articulo();
+            try
+            {
+                string campo = cbo_campo.SelectedItem.ToString();
+                string criterio = cbo_criterio.SelectedItem.ToString();
+                string buscar = txtbox_Filtro.Text;
+                dataGridView1.DataSource = articulos.filtrar(campo, criterio, buscar);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
+        }
+
+
+
+        private void txtbox_busquedarapida_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtbox_Filtro_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

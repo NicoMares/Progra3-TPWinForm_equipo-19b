@@ -8,7 +8,8 @@ namespace Actividad_2.Dominio
     public class ArticuloRepository
     {
         private readonly string connectionString =
-            @"Server=.\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True";
+@"Server=.\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True";
+
 
         private SqlConnection conexion;
         private SqlCommand comando;

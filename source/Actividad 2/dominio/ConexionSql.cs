@@ -17,8 +17,8 @@ namespace Actividad_2.Dominio
 
         public ConexionSql()
         {
-            //conexion = new SqlConnection(@"Server=.\\SQLEXPRESS22;Database=CATALOGO_P3_DB;Integrated Security=True"); // NICO
-            conexion.ConnectionString = @"Server=.\\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True"; // RESTO
+          
+           conexion.ConnectionString = @"Server=.\\SQLEXPRESS;Database=CATALOGO_P3_DB;Integrated Security=True"; 
 
             conexion.StateChange += (s, e) =>
             {
