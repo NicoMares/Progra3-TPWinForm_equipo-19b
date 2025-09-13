@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace Actividad_2.Dominio
 {
@@ -60,6 +61,30 @@ namespace Actividad_2.Dominio
             comando.CommandText = ("UPDATE MARCAS SET Descripcion = @descripcion where id = @id");
             comando.Parameters.AddWithValue("@Descripcion", marca.Descripcion);
             comando.Parameters.AddWithValue("@id", marca.Id);
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
+
+        public void Eliminar(int id)
+        {
+            conexion = new SqlConnection(cs);
+            comando = new SqlCommand();
+            comando.CommandType = System.Data.CommandType.Text;
+            comando.CommandText = ("DELETE FROM MARCAS WHERE id = @id");
+            comando.Parameters.AddWithValue("@id", id);
             comando.Connection = conexion;
             try
             {

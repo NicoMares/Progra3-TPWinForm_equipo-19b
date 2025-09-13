@@ -19,10 +19,7 @@ namespace Actividad_2
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void frmMarca_Load(object sender, EventArgs e)
         {
@@ -51,6 +48,28 @@ namespace Actividad_2
             frmModificarMarca modificarMarca = new frmModificarMarca(seleccion);
             modificarMarca.ShowDialog();
             cargar();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            MarcaRepository marcaRepository = new MarcaRepository();
+            Marca seleccion;
+
+            try
+            {
+                DialogResult respuesta = MessageBox.Show("De verdad queres eliminarlo?", "Eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (respuesta == DialogResult.Yes)
+                {
+                    seleccion = (Marca)dgvMarca.CurrentRow.DataBoundItem;
+                    marcaRepository.Eliminar(seleccion.Id);
+                    cargar();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }
