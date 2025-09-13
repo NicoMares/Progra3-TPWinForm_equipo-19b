@@ -249,32 +249,6 @@ namespace Actividad_2
             }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           
-
-            
-           
-
-
         }
 
         private void cbo_criterio_SelectedIndexChanged(object sender, EventArgs e)
@@ -284,25 +258,24 @@ namespace Actividad_2
 
         private void btn_buscar_Click(object sender, EventArgs e)
         {
-            Articulo articulos = new Articulo();
             try
             {
                 if (cbo_campo.SelectedItem == null || cbo_criterio.SelectedItem == null)
-{
-    MessageBox.Show("Por favor, seleccione un campo y un criterio.");
-    return;
-}
-string campo = cbo_campo.SelectedItem.ToString();
-string criterio = cbo_criterio.SelectedItem.ToString();
+                {
+                    MessageBox.Show("Por favor, selecciona un campo y un criterio.");
+                    return;
+                }
+                string campo = cbo_campo.SelectedItem.ToString();
+                string criterio = cbo_criterio.SelectedItem.ToString();
                 string buscar = txtbox_Filtro.Text;
-                dataGridView1.DataSource = articulos.filtrar(campo, criterio, buscar);
 
+                List<Articulo> articulosFiltrados = repo.Filtrar(campo, criterio, buscar);
+                dataGridView1.DataSource = articulosFiltrados;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
-
         }
 
 

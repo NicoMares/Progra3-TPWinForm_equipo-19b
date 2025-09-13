@@ -145,5 +145,47 @@ namespace Actividad_2.Dominio
                 conexion.Close();
             }
         }
+
+        public List<Articulo> Filtrar(string campo, string criterio, string filtro)
+        {
+            List<Articulo> articulos = Listar();
+
+            if(campo.Equals("Codigo", StringComparison.OrdinalIgnoreCase))
+            {
+                return articulos.FindAll(a => !string.IsNullOrEmpty(a.Codigo) && 
+                    a.Codigo.IndexOf(filtro, StringComparison.OrdinalIgnoreCase) >= 0);
+            }
+            else if(campo.Equals("Precio", StringComparison.OrdinalIgnoreCase))
+            {
+                if(!float.TryParse(filtro, out float precioFiltro))
+                    return new List<Articulo>();
+
+                switch(criterio)
+                {
+                    case "Mayor a":
+                        return articulos.FindAll(a => a.Precio > precioFiltro);
+                    case "Menor a":
+                        return articulos.FindAll(a => a.Precio < precioFiltro);
+                    case "Igual a":
+                        return articulos.FindAll(a => a.Precio == precioFiltro);
+                    default:
+                        break;
+                }
+            }
+            else if(campo.Equals("Nombre", StringComparison.OrdinalIgnoreCase))
+            {
+                if (criterio.Equals("Comienza con"))
+                    return articulos.FindAll(a => !string.IsNullOrEmpty(a.Nombre) && 
+                        a.Nombre.StartsWith(filtro, StringComparison.OrdinalIgnoreCase));
+                else if (criterio.Equals("Contiene"))
+                    return articulos.FindAll(a => !string.IsNullOrEmpty(a.Nombre) && 
+                        a.Nombre.IndexOf(filtro, StringComparison.OrdinalIgnoreCase) >= 0);
+                else if (criterio.Equals("Termina con"))
+                    return articulos.FindAll(a => !string.IsNullOrEmpty(a.Nombre) && 
+                        a.Nombre.EndsWith(filtro, StringComparison.OrdinalIgnoreCase));
+            }
+           
+            return articulos;
+        }
     }
 }
