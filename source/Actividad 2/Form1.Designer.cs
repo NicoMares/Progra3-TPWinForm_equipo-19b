@@ -245,6 +245,7 @@ namespace Actividad_2
             this.btn_volver.Size = new System.Drawing.Size(75, 25);
             this.btn_volver.TabIndex = 10;
             this.btn_volver.Text = "Volver";
+            this.btn_volver.Click += new System.EventHandler(this.btn_volver_Click);
             // 
             // lbl_filtrorapido
             // 

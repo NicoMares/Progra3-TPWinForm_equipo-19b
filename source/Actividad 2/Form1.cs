@@ -198,8 +198,16 @@ namespace Actividad_2
 
         private void cbo_campo_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
-           string opcion =  cbo_campo.SelectedItem.ToString();
+
+            if (cbo_campo.SelectedItem == null)
+            {
+
+
+                return;
+            }
+
+
+            string opcion =  cbo_campo.SelectedItem.ToString();
 
 
             switch (opcion)
@@ -304,6 +312,16 @@ namespace Actividad_2
 
         private void btn_actualizar_Click(object sender, EventArgs e)
         {
+            CargarArticulos();
+        }
+
+        private void btn_volver_Click(object sender, EventArgs e)
+        {
+            txtbox_Filtro.Text = "";
+            cbo_campo.SelectedIndex = -1;
+            cbo_criterio.Items.Clear();
+
+
             CargarArticulos();
         }
     }
