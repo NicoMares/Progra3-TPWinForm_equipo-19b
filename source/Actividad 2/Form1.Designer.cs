@@ -16,9 +16,9 @@ namespace Actividad_2
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lista_articulo = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,16 +38,16 @@ namespace Actividad_2
             this.lbl_criterio = new System.Windows.Forms.Label();
             this.cbo_criterio = new System.Windows.Forms.ComboBox();
             this.lbl_filtro = new System.Windows.Forms.Label();
-            this.lbl_filtrorapido = new System.Windows.Forms.Label();
+            this.txtbox_Filtro = new System.Windows.Forms.TextBox();
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_volver = new System.Windows.Forms.Button();
+            this.lbl_filtrorapido = new System.Windows.Forms.Label();
+            this.txtbox_busquedarapida = new System.Windows.Forms.TextBox();
             this.splitMain = new System.Windows.Forms.SplitContainer();
             this.tableLeft = new System.Windows.Forms.TableLayoutPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.txtbox_Filtro = new System.Windows.Forms.TextBox();
-            this.txtbox_busquedarapida = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.panelFilters.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitMain)).BeginInit();
@@ -83,20 +83,20 @@ namespace Actividad_2
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.agregarToolStripMenuItem.Text = "Agregar";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
             // eliminarToolStripMenuItem
             // 
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
             // 
             // modificarToolStripMenuItem
             // 
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modificarToolStripMenuItem.Text = "Modificar";
             // 
             // lista_marca
@@ -112,21 +112,22 @@ namespace Actividad_2
             // agregarMarcaToolStripMenuItem
             // 
             this.agregarMarcaToolStripMenuItem.Name = "agregarMarcaToolStripMenuItem";
-            this.agregarMarcaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.agregarMarcaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.agregarMarcaToolStripMenuItem.Text = "Agregar Marca";
             this.agregarMarcaToolStripMenuItem.Click += new System.EventHandler(this.agregarMarcaToolStripMenuItem_Click);
             // 
             // eliminarMarcaToolStripMenuItem
             // 
             this.eliminarMarcaToolStripMenuItem.Name = "eliminarMarcaToolStripMenuItem";
-            this.eliminarMarcaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.eliminarMarcaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.eliminarMarcaToolStripMenuItem.Text = "Eliminar Marca";
             // 
             // modificarMarcaToolStripMenuItem
             // 
             this.modificarMarcaToolStripMenuItem.Name = "modificarMarcaToolStripMenuItem";
-            this.modificarMarcaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.modificarMarcaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modificarMarcaToolStripMenuItem.Text = "Modificar Marca";
+            this.modificarMarcaToolStripMenuItem.Click += new System.EventHandler(this.modificarMarcaToolStripMenuItem_Click);
             // 
             // lista_categoria
             // 
@@ -141,20 +142,20 @@ namespace Actividad_2
             // agregarCategoriaToolStripMenuItem
             // 
             this.agregarCategoriaToolStripMenuItem.Name = "agregarCategoriaToolStripMenuItem";
-            this.agregarCategoriaToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.agregarCategoriaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.agregarCategoriaToolStripMenuItem.Text = "Agregar Categoría";
             this.agregarCategoriaToolStripMenuItem.Click += new System.EventHandler(this.agregarCategoriaToolStripMenuItem_Click);
             // 
             // eliminarCategoriaToolStripMenuItem
             // 
             this.eliminarCategoriaToolStripMenuItem.Name = "eliminarCategoriaToolStripMenuItem";
-            this.eliminarCategoriaToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.eliminarCategoriaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.eliminarCategoriaToolStripMenuItem.Text = "Eliminar Categoría";
             // 
             // modificarCategoriaToolStripMenuItem
             // 
             this.modificarCategoriaToolStripMenuItem.Name = "modificarCategoriaToolStripMenuItem";
-            this.modificarCategoriaToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.modificarCategoriaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modificarCategoriaToolStripMenuItem.Text = "Modificar Categoría";
             // 
             // panelFilters
@@ -223,14 +224,13 @@ namespace Actividad_2
             this.lbl_filtro.TabIndex = 4;
             this.lbl_filtro.Text = "Filtro:";
             // 
-            // lbl_filtrorapido
+            // txtbox_Filtro
             // 
-            this.lbl_filtrorapido.AutoSize = true;
-            this.lbl_filtrorapido.Location = new System.Drawing.Point(857, 8);
-            this.lbl_filtrorapido.Name = "lbl_filtrorapido";
-            this.lbl_filtrorapido.Size = new System.Drawing.Size(98, 15);
-            this.lbl_filtrorapido.TabIndex = 6;
-            this.lbl_filtrorapido.Text = "Búsqueda rápida:";
+            this.txtbox_Filtro.Location = new System.Drawing.Point(478, 11);
+            this.txtbox_Filtro.Name = "txtbox_Filtro";
+            this.txtbox_Filtro.Size = new System.Drawing.Size(130, 23);
+            this.txtbox_Filtro.TabIndex = 11;
+            this.txtbox_Filtro.TextChanged += new System.EventHandler(this.txtbox_Filtro_TextChanged);
             // 
             // btn_buscar
             // 
@@ -259,6 +259,23 @@ namespace Actividad_2
             this.btn_volver.Size = new System.Drawing.Size(75, 25);
             this.btn_volver.TabIndex = 10;
             this.btn_volver.Text = "Volver";
+            // 
+            // lbl_filtrorapido
+            // 
+            this.lbl_filtrorapido.AutoSize = true;
+            this.lbl_filtrorapido.Location = new System.Drawing.Point(857, 8);
+            this.lbl_filtrorapido.Name = "lbl_filtrorapido";
+            this.lbl_filtrorapido.Size = new System.Drawing.Size(98, 15);
+            this.lbl_filtrorapido.TabIndex = 6;
+            this.lbl_filtrorapido.Text = "Búsqueda rápida:";
+            // 
+            // txtbox_busquedarapida
+            // 
+            this.txtbox_busquedarapida.Location = new System.Drawing.Point(961, 11);
+            this.txtbox_busquedarapida.Name = "txtbox_busquedarapida";
+            this.txtbox_busquedarapida.Size = new System.Drawing.Size(116, 23);
+            this.txtbox_busquedarapida.TabIndex = 12;
+            this.txtbox_busquedarapida.TextChanged += new System.EventHandler(this.txtbox_busquedarapida_TextChanged);
             // 
             // splitMain
             // 
@@ -292,19 +309,19 @@ namespace Actividad_2
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(251)))));
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(251)))));
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.Location = new System.Drawing.Point(13, 13);
@@ -318,14 +335,14 @@ namespace Actividad_2
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.EnableHeadersVisualStyles = false;
             this.dataGridView2.Location = new System.Drawing.Point(13, 414);
@@ -333,22 +350,6 @@ namespace Actividad_2
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.Size = new System.Drawing.Size(1074, 128);
             this.dataGridView2.TabIndex = 1;
-            // 
-            // txtbox_Filtro
-            // 
-            this.txtbox_Filtro.Location = new System.Drawing.Point(478, 11);
-            this.txtbox_Filtro.Name = "txtbox_Filtro";
-            this.txtbox_Filtro.Size = new System.Drawing.Size(130, 23);
-            this.txtbox_Filtro.TabIndex = 11;
-            this.txtbox_Filtro.TextChanged += new System.EventHandler(this.txtbox_Filtro_TextChanged);
-            // 
-            // txtbox_busquedarapida
-            // 
-            this.txtbox_busquedarapida.Location = new System.Drawing.Point(961, 11);
-            this.txtbox_busquedarapida.Name = "txtbox_busquedarapida";
-            this.txtbox_busquedarapida.Size = new System.Drawing.Size(116, 23);
-            this.txtbox_busquedarapida.TabIndex = 12;
-            this.txtbox_busquedarapida.TextChanged += new System.EventHandler(this.txtbox_busquedarapida_TextChanged);
             // 
             // Form1
             // 

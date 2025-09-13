@@ -48,7 +48,33 @@ namespace Actividad_2.Dominio
                 conexion.Close();
             }
 
+        }
 
+
+
+        public void modificar(Marca marca)
+        {
+            conexion = new SqlConnection(cs);
+            comando = new SqlCommand();
+            comando.CommandType = System.Data.CommandType.Text;
+            comando.CommandText = ("UPDATE MARCAS SET Descripcion = @descripcion where id = @id");
+            comando.Parameters.AddWithValue("@Descripcion", marca.Descripcion);
+            comando.Parameters.AddWithValue("@id", marca.Id);
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
         }
     }
 
