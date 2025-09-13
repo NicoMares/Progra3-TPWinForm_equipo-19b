@@ -103,3 +103,5 @@ F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source
 F:\Github\Facultad\Progra 3- Segundo Intento\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.pdb
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmMarca.resources
 E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmModificarMarca.resources
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmCategoria.resources
+E:\Documentos\UTN\3C - PROGRAMACION III\Repos_G19\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmModificarCategoria.resources

@@ -317,5 +317,11 @@ namespace Actividad_2
             frmMarca frmMarca = new frmMarca();
             frmMarca.ShowDialog();
         }
+
+        private void modificarCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCategoria frmCategoria = new frmCategoria();
+            frmCategoria.ShowDialog();
+        }
     }
 }

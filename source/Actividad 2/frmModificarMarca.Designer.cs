@@ -49,9 +49,9 @@
             this.lblModificarMarca.AutoSize = true;
             this.lblModificarMarca.Location = new System.Drawing.Point(68, 75);
             this.lblModificarMarca.Name = "lblModificarMarca";
-            this.lblModificarMarca.Size = new System.Drawing.Size(169, 13);
+            this.lblModificarMarca.Size = new System.Drawing.Size(158, 13);
             this.lblModificarMarca.TabIndex = 7;
-            this.lblModificarMarca.Text = "Ingresa el los cambios de la marca";
+            this.lblModificarMarca.Text = "Ingresa los cambios de la marca";
             // 
             // txtDescripcionMarca
             // 

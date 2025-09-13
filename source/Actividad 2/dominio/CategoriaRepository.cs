@@ -51,5 +51,30 @@ namespace Actividad_2.Dominio
 
 
         }
+
+        public void modificar(Categoria categoria)
+        {
+            conexion = new SqlConnection(cs);
+            comando = new SqlCommand();
+            comando.CommandType = System.Data.CommandType.Text;
+            comando.CommandText = ("UPDATE CategoriaS SET Descripcion = @descripcion where id = @id");
+            comando.Parameters.AddWithValue("@Descripcion", categoria.Descripcion);
+            comando.Parameters.AddWithValue("@id", categoria.Id);
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
     }
 }
