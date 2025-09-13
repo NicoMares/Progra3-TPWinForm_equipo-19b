@@ -287,8 +287,13 @@ namespace Actividad_2
             Articulo articulos = new Articulo();
             try
             {
-                string campo = cbo_campo.SelectedItem.ToString();
-                string criterio = cbo_criterio.SelectedItem.ToString();
+                if (cbo_campo.SelectedItem == null || cbo_criterio.SelectedItem == null)
+{
+    MessageBox.Show("Por favor, seleccione un campo y un criterio.");
+    return;
+}
+string campo = cbo_campo.SelectedItem.ToString();
+string criterio = cbo_criterio.SelectedItem.ToString();
                 string buscar = txtbox_Filtro.Text;
                 dataGridView1.DataSource = articulos.filtrar(campo, criterio, buscar);
 

@@ -118,7 +118,14 @@ namespace Actividad_2.Dominio
       
         
         finally
-        {   datos.Lector.Close();
+        {   
+                
+                if (datos.Lector != null)
+                {
+                datos.Lector.Close();
+
+                }
+               
             }
 
 
