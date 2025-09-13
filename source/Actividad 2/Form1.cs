@@ -301,5 +301,10 @@ namespace Actividad_2
             frmCategoria frmCategoria = new frmCategoria();
             frmCategoria.ShowDialog();
         }
+
+        private void btn_actualizar_Click(object sender, EventArgs e)
+        {
+            CargarArticulos();
+        }
     }
 }
