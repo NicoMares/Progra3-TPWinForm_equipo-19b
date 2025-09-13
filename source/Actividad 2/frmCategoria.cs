@@ -50,7 +50,26 @@ namespace Actividad_2
 
         }
 
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            CategoriaRepository categoriaRepository = new CategoriaRepository();
+            Categoria seleccion;
 
+            try
+            {
+                DialogResult respuesta = MessageBox.Show("De verdad queres eliminarlo?", "Eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (respuesta == DialogResult.Yes)
+                {
+                    seleccion = (Categoria)dgvCategoria.CurrentRow.DataBoundItem;
+                    categoriaRepository.Eliminar(seleccion.Id);
+                    cargar();
+                }
+            }
+            catch (Exception ex)
+            {
 
+                MessageBox.Show(ex.ToString());
+            }
+        }
     }
 }

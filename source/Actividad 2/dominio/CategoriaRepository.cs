@@ -76,5 +76,29 @@ namespace Actividad_2.Dominio
                 conexion.Close();
             }
         }
+
+        public void Eliminar(int id)
+        {
+            conexion = new SqlConnection(cs);
+            comando = new SqlCommand();
+            comando.CommandType = System.Data.CommandType.Text;
+            comando.CommandText = ("DELETE FROM CATEGORIAS WHERE id = @id");
+            comando.Parameters.AddWithValue("@id", id);
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
     }
 }
