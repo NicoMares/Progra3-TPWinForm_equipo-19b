@@ -10,6 +10,10 @@ namespace Actividad_2
     {
         private readonly ArticuloRepository repo = new ArticuloRepository();
 
+       
+        private List<Articulo> _articulos = new List<Articulo>();
+        private Timer _debounceTimer;
+
         public Form1()
         {
             InitializeComponent();
@@ -22,25 +26,41 @@ namespace Actividad_2
             dataGridView1.CellClick += dataGridView1_CellClick;
             AplicarEstilosModernos();
 
-
-             cbo_campo.Items.Add("Codigo");
-             cbo_campo.Items.Add("Nombre");
-             cbo_campo.Items.Add("Precio");
-
-           /*  cbo_campo.Items.Add("Descripcion");
-            cbo_campo.Items.Add("Marca");
-           */
+            cbo_campo.Items.Add("Codigo");
+            cbo_campo.Items.Add("Nombre");
+            cbo_campo.Items.Add("Precio");
+           
+            txtbox_busquedarapida.TextChanged += txtbox_busquedarapida_TextChanged;
+            _debounceTimer = new Timer { Interval = 250 };
+            _debounceTimer.Tick += (s, ev) =>
+            {
+                _debounceTimer.Stop();
+                AplicarFiltroRapido(txtbox_busquedarapida.Text);
+            };
         }
 
+       
         private void CargarArticulos()
         {
-            List<Articulo> articulos = repo.Listar();
-            dataGridView1.DataSource = articulos;
+            _articulos = repo.Listar();
+            BindArticulos(_articulos);
+        }
 
-            dataGridView1.Columns["Id"].Visible = false;
-            dataGridView1.Columns["Marca"].Visible = false;
-            dataGridView1.Columns["Categoria"].Visible = false;
+       
+        private void BindArticulos(List<Articulo> lista)
+        {
+            dataGridView1.DataSource = null;
+            dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.DataSource = lista;
 
+            if (dataGridView1.Columns.Contains("Id"))
+                dataGridView1.Columns["Id"].Visible = false;
+            if (dataGridView1.Columns.Contains("Marca"))
+                dataGridView1.Columns["Marca"].Visible = false;
+            if (dataGridView1.Columns.Contains("Categoria"))
+                dataGridView1.Columns["Categoria"].Visible = false;
+
+          
             if (dataGridView1.Columns["colEditar"] == null)
             {
                 var colEditar = new DataGridViewImageColumn
@@ -60,15 +80,50 @@ namespace Actividad_2
                 {
                     Name = "colEliminar",
                     HeaderText = "Eliminar",
-                    Image = Properties.Resources.delete, 
+                    Image = Properties.Resources.delete,
                     Width = 50,
                     ImageLayout = DataGridViewImageCellLayout.Zoom
                 };
                 dataGridView1.Columns.Add(colEliminar);
             }
+
+            if (dataGridView1.Columns.Contains("colEditar") && dataGridView1.Columns.Contains("colEliminar"))
+            {
+                int lastIndex = dataGridView1.Columns.Count - 1;
+
+                dataGridView1.Columns["colEliminar"].DisplayIndex = lastIndex;
+                dataGridView1.Columns["colEditar"].DisplayIndex = lastIndex - 1;
+            }
         }
 
 
+        private void AplicarFiltroRapido(string termino)
+        {
+            if (_articulos == null || _articulos.Count == 0)
+            {
+                dataGridView1.DataSource = null;
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(termino))
+            {
+                BindArticulos(_articulos);
+                return;
+            }
+
+            var q = termino.Trim().ToLowerInvariant();
+
+            var filtrados = _articulos.FindAll(a =>
+                (a.Codigo?.ToLowerInvariant().Contains(q) ?? false) ||
+                (a.Nombre?.ToLowerInvariant().Contains(q) ?? false) ||
+                (a.Descripcion?.ToLowerInvariant().Contains(q) ?? false) ||
+                (a.Marca?.Descripcion?.ToLowerInvariant().Contains(q) ?? false) ||
+                (a.Categoria?.Descripcion?.ToLowerInvariant().Contains(q) ?? false) ||
+                a.Precio.ToString(System.Globalization.CultureInfo.InvariantCulture).Contains(q)
+            );
+
+            BindArticulos(filtrados);
+        }
 
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
@@ -175,7 +230,6 @@ namespace Actividad_2
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
         }
 
         private void agregarCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -198,70 +252,50 @@ namespace Actividad_2
 
         private void cbo_campo_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (cbo_campo.SelectedItem == null) return;
 
-            if (cbo_campo.SelectedItem == null)
-            {
-
-
-                return;
-            }
-
-
-            string opcion =  cbo_campo.SelectedItem.ToString();
-
+            string opcion = cbo_campo.SelectedItem.ToString();
 
             switch (opcion)
             {
                 case "Codigo":
-
                     cbo_criterio.Items.Clear();
                     cbo_criterio.Items.Add("Contiene");
-
                     break;
 
                 case "Precio":
-
                     cbo_criterio.Items.Clear();
                     cbo_criterio.Items.Add("Mayor a");
                     cbo_criterio.Items.Add("Menor a");
                     cbo_criterio.Items.Add("Igual a");
-
                     break;
 
-             
                 case "Nombre":
-
                     cbo_criterio.Items.Clear();
                     cbo_criterio.Items.Add("Comienza con");
                     cbo_criterio.Items.Add("Contiene");
                     cbo_criterio.Items.Add("Termina con");
-
                     break;
 
                 case "Descripcion":
                     cbo_criterio.Items.Clear();
                     cbo_criterio.Items.Add("Texto De Descripcion");
-
                     break;
-                case "Marca":
 
+                case "Marca":
                     cbo_criterio.Items.Clear();
                     cbo_criterio.Items.Add("Comienza con");
                     cbo_criterio.Items.Add("Contiene");
                     cbo_criterio.Items.Add("Termina con");
-
                     break;
 
                 default:
                     break;
             }
-
-
         }
 
         private void cbo_criterio_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
         }
 
         private void btn_buscar_Click(object sender, EventArgs e)
@@ -278,7 +312,7 @@ namespace Actividad_2
                 string buscar = txtbox_Filtro.Text;
 
                 List<Articulo> articulosFiltrados = repo.Filtrar(campo, criterio, buscar);
-                dataGridView1.DataSource = articulosFiltrados;
+                BindArticulos(articulosFiltrados);
             }
             catch (Exception ex)
             {
@@ -286,16 +320,15 @@ namespace Actividad_2
             }
         }
 
-
-
+      
         private void txtbox_busquedarapida_TextChanged(object sender, EventArgs e)
         {
-
+            _debounceTimer?.Stop();
+            _debounceTimer?.Start();
         }
 
         private void txtbox_Filtro_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void modificarMarcaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -318,10 +351,9 @@ namespace Actividad_2
         private void btn_volver_Click(object sender, EventArgs e)
         {
             txtbox_Filtro.Text = "";
+            txtbox_busquedarapida.Text = ""; 
             cbo_campo.SelectedIndex = -1;
             cbo_criterio.Items.Clear();
-
-
             CargarArticulos();
         }
     }
