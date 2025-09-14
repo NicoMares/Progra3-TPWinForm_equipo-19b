@@ -1,0 +1,19 @@
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.exe.config
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.exe
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\bin\Debug\Actividad 2.pdb
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Progra3-TPWinForm_equipo-19b.csproj.AssemblyReference.cache
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.exe.config
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Eliminar.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Form1.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmAgregarArticulo.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Dominio.frmAgregarCategoria.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmAgregarMarca.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmCategoria.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmMarca.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmModificarCategoria.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.frmModificarMarca.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad_2.Properties.Resources.resources
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Progra3-TPWinForm_equipo-19b.csproj.GenerateResource.cache
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Progra3-TPWinForm_equipo-19b.csproj.CoreCompileInputs.cache
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.exe
+C:\Users\aledesma\source\repos\tp1\Progra3-TPWinForm_equipo-19b\source\Actividad 2\obj\Debug\Actividad 2.pdb
